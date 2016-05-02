@@ -126,5 +126,3 @@ gulp.task('development', ['css', 'js', 'browser-sync'], function(){
 });
 
 gulp.task('build', ['clean','dist_copy','dist_js'], null);
-gulp.task('deliver', ['clean','css','dist_copy','dist_js'], null);
-gulp.task('delivery', ['clean','css','dist_copy','dist_js'], null);
